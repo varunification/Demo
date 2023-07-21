@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-tables {
+    display: flex;
+}
+
+.table1,
+.table3 {
+    flex: 1;
+    border: 1px solid black; /* Add your desired table styling here */
+    margin: 5px;
+}
+
+.center-image {
+    text-align: center;
+    margin: 20px 0;
+}
+
+    .center-image img {
+        max-width: 100%; /* Ensure the image fits within the container */
+    }
+
+.bottom-tables {
+    display: flex;
+    align-items: flex-start; /* Align items at the top */
+}
+
+.left-table {
+    flex: 1;
+}
+
+.left-table-container {
+    display: flex;
+}
+
+.table4,
+.table5 {
+    flex: 1;
+    border: 1px solid black; /* Add your desired table styling here */
+    margin: 5px;
+}
+
+.right-image {
+    flex: 1;
+    text-align: center;
+    margin-left: 20px;
+}
+
+    .right-image img {
+        max-width: 100%; /* Ensure the image fits within the container */
+    }
