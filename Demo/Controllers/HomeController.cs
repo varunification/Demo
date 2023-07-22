@@ -1,5 +1,6 @@
 ﻿using Demo.Models;
 using Microsoft.AspNetCore.Mvc;
+using Rotativaio.AspNetCore;
 using System.Diagnostics;
 
 namespace Demo.Controllers
@@ -16,6 +17,10 @@ namespace Demo.Controllers
         public IActionResult Index()
         {
             return View();
+        }
+        public IActionResult GetPDF()
+        {
+            return new ViewAsPdf("Index");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

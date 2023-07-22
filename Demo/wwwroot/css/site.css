@@ -40,7 +40,6 @@ body {
 .left-table-container {
     display: flex;
     /*border: 2px solid black;*/
-    padding-right: 10px;
 }
 
 .table4,
@@ -48,7 +47,6 @@ body {
     flex: 1;
     border: 1px solid black;
     margin: 5px;
-    max-width: 100%;
     padding-right: 10px;
 }
 
@@ -61,8 +59,6 @@ body {
 }
 
     .right-image img {
-        max-width: 100%;
-        max-height: 100%;
         text-align:center;
        
     }
